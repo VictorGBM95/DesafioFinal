@@ -1,0 +1,13 @@
+@import 'variables'; 
+
+header {
+    font-family: $nav-text;
+    font-size: 25px;
+    font-weight: 300;
+    nav {
+        background-color: $bg-color;
+        ul {
+            width: 100%;
+        }
+    }
+}

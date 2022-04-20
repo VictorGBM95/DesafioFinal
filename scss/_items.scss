@@ -1,0 +1,6 @@
+@import 'variables';
+
+.shop__item:hover {
+    transform: scale(1.06);
+    transition-duration: 500ms;
+}

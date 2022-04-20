@@ -1,0 +1,12 @@
+@import 'variables';
+
+footer {
+    .footer__icon {
+        color: $text-color;
+    }
+    
+    .footer__icon img:hover {
+        transform: scale(1.25);
+        transition-duration: 300ms;
+    }
+}

@@ -1,0 +1,15 @@
+@import 'variables';
+
+main{
+    background: $bg-color;
+    border-radius: 3%;
+    font-family: $main-text;
+    .carousel-item {
+        height: 32rem;
+    }
+}
+
+section{
+    color: $text-color;
+    font-family: $main-text;
+}

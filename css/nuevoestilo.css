@@ -1,0 +1,43 @@
+header {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  font-weight: 300; }
+  header nav {
+    background-color: #360000; }
+    header nav ul {
+      width: 100%; }
+
+main {
+  background: #360000;
+  border-radius: 3%;
+  font-family: "Raleway", sans-serif; }
+  main .carousel-item {
+    height: 32rem; }
+
+section {
+  color: antiquewhite;
+  font-family: "Raleway", sans-serif; }
+
+footer .footer__icon {
+  color: antiquewhite; }
+
+footer .footer__icon img:hover {
+  transform: scale(1.25);
+  transition-duration: 300ms; }
+
+.shop__item:hover {
+  transform: scale(1.06);
+  transition-duration: 500ms; }
+
+body {
+  background: url(../images/DnDWallpaperPHB.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 200%;
+  color: antiquewhite; }
+
+.title__card {
+  background: #360000;
+  border-radius: 50%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700; }
