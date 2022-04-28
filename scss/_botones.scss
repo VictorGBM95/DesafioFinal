@@ -1,0 +1,19 @@
+@import 'variables';
+
+$themeColors: (
+    "primary": $primary,
+    "secondary": $secondary
+);
+
+@each $botones, $color in $themeColors {
+    .btn-#{$botones}{
+        background-color: $color!important;
+        color: antiquewhite;
+        border-color: $color;
+        &:hover {
+            border-color: white;
+            font-weight: 800;
+        }
+    }
+    
+}

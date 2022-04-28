@@ -1,11 +1,10 @@
 {
   "name": "desafio6-scss",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/nuevoestilo.scss css/nuevoestilo.css",
+    "build-css": "node-sass --include-path scss scss/nuevoestilo.scss ./css/nuevoestilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
@@ -13,5 +12,15 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorGBM95/DesafioSCSS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VictorGBM95/DesafioSCSS/issues"
+  },
+  "homepage": "https://github.com/VictorGBM95/DesafioSCSS#readme",
+  "description": ""
 }

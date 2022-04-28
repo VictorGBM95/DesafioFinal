@@ -72,6 +72,13 @@ header {
     width: 300px;
 }
 
+.btn-secondary {
+    background-color: maroon !important;
+    color: antiquewhite;
+    border-color: maroon; }
+    .btn-secondary:hover {
+        border-color: white;
+        font-weight: 800; }
 
 
 

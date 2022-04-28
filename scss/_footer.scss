@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'items';
 
 footer {
     .footer__icon {
@@ -6,7 +7,6 @@ footer {
     }
     
     .footer__icon img:hover {
-        transform: scale(1.25);
-        transition-duration: 300ms;
+        @extend .shop__item;
     }
 }

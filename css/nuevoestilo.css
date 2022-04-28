@@ -18,16 +18,32 @@ section {
   color: antiquewhite;
   font-family: "Raleway", sans-serif; }
 
+.shop__item:hover, footer .footer__icon img:hover {
+  transform: scale(1.1);
+  transition-duration: 500ms; }
+
 footer .footer__icon {
   color: antiquewhite; }
 
-footer .footer__icon img:hover {
-  transform: scale(1.25);
-  transition-duration: 300ms; }
-
-.shop__item:hover {
-  transform: scale(1.06);
+.shop__item:hover, footer .footer__icon img:hover {
+  transform: scale(1.1);
   transition-duration: 500ms; }
+
+.btn-primary {
+  background-color: #6e0000 !important;
+  color: antiquewhite;
+  border-color: #6e0000; }
+  .btn-primary:hover {
+    border-color: white;
+    font-weight: 800; }
+
+.btn-secondary {
+  background-color: maroon !important;
+  color: antiquewhite;
+  border-color: maroon; }
+  .btn-secondary:hover {
+    border-color: white;
+    font-weight: 800; }
 
 body {
   background: url(../images/DnDWallpaperPHB.jpg);
